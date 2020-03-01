@@ -1,4 +1,6 @@
 # DraculaTheme-i3wm-terminator-GTK-polybar
+
+
 git init
 git add README.md
 git commit -m "first commit"
