@@ -5,13 +5,13 @@
 /* widget text/foreground color */
 @define-color theme_fg_color #6272A4;
 /* text color for entries, views and content in general */
-@define-color theme_text_color #6272A4;
+@define-color theme_text_color #ccccd3;
 /* widget base background color */
 @define-color theme_bg_color #161925;
 /* text widgets and the like base background color */
 @define-color theme_base_color #181b28;
 /* base background color of selections */
-@define-color theme_selected_bg_color #6272A4;
+@define-color theme_selected_bg_color #6272A4; 
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #fefefe;
 /* base background color of disabled widgets */
@@ -23,7 +23,7 @@
 /* widget text/foreground color on backdrop windows */
 @define-color theme_unfocused_fg_color #6d707b;
 /* text color for entries, views and content in general on backdrop windows */
-@define-color theme_unfocused_text_color #6272A4;
+@define-color theme_unfocused_text_color #ccccd3;
 /* widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #161925;
 /* text widgets and the like base background color on backdrop windows */
@@ -57,7 +57,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_button_active_color_c shade(#161925, 0.9);
 @define-color content_view_bg #181b28;
 @define-color budgie_tasklist_indicator_color #6272A4;
-@define-color budgie_tasklist_indicator_color_active #6272A4;
+@define-color budgie_tasklist_indicator_color_active  #6272A4;
 /*****************
 * Drawing mixins *
 *****************/
@@ -184,7 +184,7 @@ iconview,
 .view text,
 iconview text,
 textview text {
-  color: #6272a4;
+  color: #ccccd3;
   background-color: #181b28;
 }
 .view:backdrop,
